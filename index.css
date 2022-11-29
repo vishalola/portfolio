@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
 body
 {
+-webkit-tap-highlight-color: transparent;
   margin:0;
   background:linear-gradient(to bottom,#353535,#000000);
   /* background:linear-gradient(to bottom,#2454f3,#000000); */
