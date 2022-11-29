@@ -29,7 +29,7 @@ body
   position: relative;
   /* left:-20%; */
   /* margin-right: 20%; */
-  transition: margin .5s ease-out;
+  transition: margin .5s ease-out,height .3s ease, width .3s ease;
   /* background-color: inherit; */
   /* margin-top: 500px; */
 
@@ -362,4 +362,59 @@ ul li:nth-child(4) a:before {
   line-height: 110px;
   user-select: none;
   transition:opacity .5s ease;
+}
+@media only screen and (max-width:600px) {
+  .parent
+  {
+    width: 230px;
+    height: 180px;
+  }
+  .name
+  {
+    top:50px
+  }
+  .intro{
+    font-size: 30px;
+    line-height: 60px;
+    bottom: 30px;
+  }
+  ul{
+  margin-right: 0px;
+  margin-left: 0px;
+    padding: 0px;
+  }
+  ul li a {
+    width: 50px;
+    height: 50px;
+  margin: 0 10px;
+    
+  }
+  #contact
+  {
+    height: 100px;
+    width: 250px;
+  margin-left:00px;
+
+  }
+  #skills
+  {
+    /* border: 1px solid white; */
+    width: 130px;
+  }
+  #projects
+  {
+    /* border:1px solid white; */
+    height: 50px;
+    width: 350px;
+    margin-left:00px;
+
+  }
+  ul li a .icon 
+  {
+    top:-14px;
+  }
+  #projects ul li
+  {
+    padding-right: 5px;;
+  }
 }
