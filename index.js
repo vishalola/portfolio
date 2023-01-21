@@ -210,7 +210,7 @@ c.addEventListener("click",()=>{
     else
     {
     project.style.visibility="visible";
-    project.style.marginLeft="400px";
+    project.style.marginLeft="550px";
     project.style.transform="scale(1)";
     skills.style.visibility="hidden";
     skills.style.marginLeft="-500px";
