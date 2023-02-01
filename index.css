@@ -104,8 +104,8 @@ body
   z-index: 100;
   position: absolute;
   margin-left: -500px;
-  height: 400px;
-  width: 450px;
+  height: 40%;
+  width: 25%;
   visibility: hidden;
   transform: scale(0);
   /* animation:slide 2s ease forwards; */
@@ -126,7 +126,7 @@ body
   z-index: 100;
   position: absolute;
   margin-left:-500px;
-  height: 400px;
+  height: 40%;
   width: 20%;
   visibility: hidden;
   transform: scale(0);
@@ -171,7 +171,7 @@ body
   z-index: 100;
   position: absolute;
   margin-left:-500px;
-  height: 400px;
+  height:40%;
   width: 40%;
   visibility: hidden;
   transform: scale(0);
